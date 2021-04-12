@@ -1,7 +1,4 @@
-a=8
-b=9
-print(a+b)
-print('suriya python')
-print("not detect")
-print("its running")
-print("its working in pycharm")
+names=("suriya","vijay","ajith")
+comp=("first","second","third")
+zipped=list(zip(names,comp))
+print(zipped)
